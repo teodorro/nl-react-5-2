@@ -3,6 +3,6 @@ import '../css/main.css';
 
 export default function Search() {
   return (
-    <div className='bd'>Search</div>
+    <div className='bd search'>Search</div>
   )
 }

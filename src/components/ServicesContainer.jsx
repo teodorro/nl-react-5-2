@@ -8,13 +8,15 @@ import Weather from "./service-components/Weather";
 
 export default function ServicesContainer() {
   return (
-    <div className="bd">
+    <div className="bd services-container">
       ServicesContainer
-      <MapGermany></MapGermany>
-      <Popular></Popular>
-      <Streams></Streams>
-      <TvProgram></TvProgram>
+      <div className="services-list">
       <Weather></Weather>
+      <MapGermany></MapGermany>
+      <Streams></Streams>
+      <Popular></Popular>
+      <TvProgram></TvProgram>
+      </div>
     </div>
   );
 }

@@ -1,13 +1,51 @@
 
 
-.asd{
-  border: 1px solid #00f;
+.main{
+  border: 1px solid #080;
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .bd {
-  border: 1px solid #f00;
+  border: 1px solid #f0f;
   margin: 1em;
 }
 
+.header {
+  height: 30%;
+  display: flex;
+  /* flex: 1 1 auto; */
+  /* flex-direction: column  ; */
+}
 
+.header-item {
+  flex: 1 1 auto;
+}
+
+.search {
+  height: 15%
+}
+
+.banner {
+  height: 15%
+}
+
+.services-container {
+
+  height: 30%;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid #000; */
+  height: 80%;
+}
+
+.service {
+  width: 30%;
+}
 

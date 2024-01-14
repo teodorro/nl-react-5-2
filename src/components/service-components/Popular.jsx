@@ -3,6 +3,6 @@ import '../../css/main.css';
 
 export default function Popular() {
   return (
-    <div className='bd'>Popular</div>
+    <div className='bd service'>Popular</div>
   )
 }

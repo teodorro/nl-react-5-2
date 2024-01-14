@@ -3,6 +3,6 @@ import '../../css/main.css';
 
 export default function MapGermany() {
   return (
-    <div className='bd'>MapGermany</div>
+    <div className='bd service'>MapGermany</div>
   )
 }

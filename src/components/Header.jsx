@@ -5,7 +5,7 @@ import Grammar from "./Grammar";
 
 export default function Header() {
   return (
-    <div className="bd">
+    <div className="bd header">
       Header
       <News />
       <Grammar />

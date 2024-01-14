@@ -3,6 +3,6 @@ import '../../css/main.css';
 
 export default function Weather() {
   return (
-    <div className='bd'>Weather</div>
+    <div className='bd service'>Weather</div>
   )
 }

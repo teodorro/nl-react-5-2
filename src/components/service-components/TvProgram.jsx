@@ -3,6 +3,6 @@ import '../../css/main.css';
 
 export default function TvProgram() {
   return (
-    <div className='bd'>TvProgram</div>
+    <div className='bd service'>TvProgram</div>
   )
 }
