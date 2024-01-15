@@ -1,14 +1,15 @@
-import React from "react";
 import "../css/main.css";
-import News from "./News";
-import Grammar from "./Grammar";
+import PropTypes from "prop-types";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div className="bd header">
       Header
-      <News />
-      <Grammar />
+      <div className="header-list">{props.children}</div>
     </div>
   );
 }
+
+Header.propTypes = {
+  children: PropTypes.string,
+};

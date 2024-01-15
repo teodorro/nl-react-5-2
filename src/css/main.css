@@ -16,13 +16,16 @@
 
 .header {
   height: 30%;
+}
+
+.header-list {
   display: flex;
-  /* flex: 1 1 auto; */
-  /* flex-direction: column  ; */
+  height: 80%;
+
 }
 
 .header-item {
-  flex: 1 1 auto;
+  width: 50%;
 }
 
 .search {
@@ -34,14 +37,12 @@
 }
 
 .services-container {
-
   height: 30%;
 }
 
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  /* border: 1px solid #000; */
   height: 80%;
 }
 

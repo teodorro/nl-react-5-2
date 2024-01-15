@@ -1,22 +1,17 @@
-import React from "react";
 import "../css/main.css";
-import MapGermany from "./service-components/MapGermany";
-import Popular from "./service-components/Popular";
-import Streams from "./service-components/Streams";
-import TvProgram from "./service-components/TvProgram";
-import Weather from "./service-components/Weather";
+import PropTypes from "prop-types";
 
-export default function ServicesContainer() {
+export default function ServicesContainer(props) {
   return (
     <div className="bd services-container">
       ServicesContainer
       <div className="services-list">
-      <Weather></Weather>
-      <MapGermany></MapGermany>
-      <Streams></Streams>
-      <Popular></Popular>
-      <TvProgram></TvProgram>
+        {props.children}
       </div>
     </div>
   );
 }
+
+ServicesContainer.propTypes = {
+  children: PropTypes.string,
+};
